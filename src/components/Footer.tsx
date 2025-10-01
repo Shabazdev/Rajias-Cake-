@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-8">
           <div>
-            <h3 className="text-xl font-semibold text-primary-foreground mb-4">
+            <h3 className="text-xl font-semibold font-display text-primary-foreground mb-4">
               Information
             </h3>
             <ul className="space-y-2">
@@ -23,7 +23,15 @@ const Footer = () => {
                   href="#products"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  Products
+                  Our Cakes
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  Custom Orders
                 </a>
               </li>
               <li>
@@ -37,17 +45,22 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-primary-foreground mb-4">
-              Recipe Videos
+            <h3 className="text-xl font-semibold font-display text-primary-foreground mb-4">
+              Contact
             </h3>
+            <p className="text-primary-foreground/80 mb-2">
+              123 Baker Street, Sweet City
+            </p>
+            <p className="text-primary-foreground/80 mb-2">
+              Phone: (555) 123-4567
+            </p>
             <p className="text-primary-foreground/80">
-              Watch our traditional recipes and learn how authentic Bengali sweets are
-              made with care.
+              Email: hello@sweetdelights.com
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-primary-foreground mb-4">
-              Useful Links
+            <h3 className="text-xl font-semibold font-display text-primary-foreground mb-4">
+              Follow Us
             </h3>
             <ul className="space-y-3">
               <li>
@@ -81,8 +94,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
-          <p className="text-primary-foreground/80 font-bengali">
-            © 2024 দেশের মিষ্টি. All rights reserved.
+          <p className="text-primary-foreground/80 font-display">
+            © 2024 Sweet Delights. All rights reserved.
           </p>
         </div>
       </div>

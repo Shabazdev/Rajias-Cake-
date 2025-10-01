@@ -6,8 +6,8 @@ const Header = () => {
     <header className="bg-primary sticky top-0 z-50 shadow-md">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <h1 className="text-2xl md:text-3xl font-bold font-bengali text-primary-foreground">
-            দেশের মিষ্টি
+          <h1 className="text-2xl md:text-3xl font-bold font-display text-primary-foreground">
+            Sweet Delights
           </h1>
           <nav className="hidden md:flex gap-6">
             <a
@@ -20,7 +20,7 @@ const Header = () => {
               href="#products"
               className="text-primary-foreground hover:text-secondary-foreground transition-colors font-medium"
             >
-              Category
+              Our Cakes
             </a>
             <a
               href="#about"

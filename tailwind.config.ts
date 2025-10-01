@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        'bengali': ['Hind Siliguri', 'sans-serif'],
+        'display': ['Playfair Display', 'serif'],
         'sans': ['Poppins', 'sans-serif'],
       },
       colors: {

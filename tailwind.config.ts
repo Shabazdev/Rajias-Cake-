@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'bengali': ['Hind Siliguri', 'sans-serif'],
+        'sans': ['Poppins', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,10 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        hero: {
+          bg: "hsl(var(--hero-bg))",
+          text: "hsl(var(--hero-text))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
